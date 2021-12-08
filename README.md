@@ -36,9 +36,9 @@ This repository contains the PyTorch implementation for [ICCV 2021](http://iccv2
     ```python
    python test.py -d datasets/style_01/test_2 -g weights/style_01/SG.pth -t weights/style_01/ST.pth -s results/style_01__test_2.png
     ```
-   `-d`: path to testing data.
-   `-g`: path to Stroke Geometry checkpoint.
-   `-t`: path to Stroke Texture checkpoint.
+   `-d`: path to testing data.\
+   `-g`: path to Stroke Geometry checkpoint.\
+   `-t`: path to Stroke Texture checkpoint.\
    `-s`: path to save the synthesized image.
 ### Training
 - Start the Stroke Geometry (SG) training:
@@ -49,7 +49,7 @@ This repository contains the PyTorch implementation for [ICCV 2021](http://iccv2
     ```python
     python train_ST.py -d datasets/style_01/train -n style_01__ST
     ```
-   `-d`: path to training data.
+   `-d`: path to training data.\
    `-n`: name of the experiment.
    
 ### Cite:
